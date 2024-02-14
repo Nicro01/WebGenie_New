@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto select-none">
-        <div class="flex flex-col items-center pb-10 pt-24 h-auto md:h-screen">
+        <div class="flex flex-col items-center pb-10 pt-24 h-auto">
             <div
                 class="glass p-5 mt-5 rounded-xl flex flex-col shadow-lg border-2 border-solid border-white shadow-slate-200"
                 style="

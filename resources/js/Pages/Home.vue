@@ -46,50 +46,50 @@
             <HeroSection />
         </section>
 
-        <section class="bg-[#fff]">
+        <section class="bg-slate-100">
             <div
                 class="w-full h-40"
-                style="background: linear-gradient(to bottom, #7ba5ea, #fff)"
+                style="background: linear-gradient(to bottom, #7ba5ea, rgb(241 245 249))"
             >
                 &nbsp;
             </div>
             <About />
         </section>
 
-        <section class="bg-[#fff]">
+        <section class="bg-slate-100">
             <div
                 class="w-full h-40"
-                style="background: linear-gradient(to bottom, #fff, #fff)"
+                style="background: linear-gradient(to bottom, rgb(241 245 249), rgb(241 245 249))"
             >
                 &nbsp;
             </div>
             <Processo />
         </section>
 
-        <section v-if="!isMobile" class="bg-[#fff]">
+        <section v-if="!isMobile" class="bg-slate-100">
             <div
                 class="w-full h-40"
-                style="background: linear-gradient(to bottom, #fff, #f6ff7d)"
+                style="background: linear-gradient(to bottom, rgb(241 245 249), #f6ff7d)"
             >
                 &nbsp;
             </div>
             <Servicos />
         </section>
 
-        <section v-if="isMobile" class="bg-[#fff]">
+        <section v-if="isMobile" class="bg-slate-100">
             <div
                 class="w-full h-40"
-                style="background: linear-gradient(to bottom, #fff, #f6ff7d)"
+                style="background: linear-gradient(to bottom, rgb(241 245 249), #f6ff7d)"
             >
                 &nbsp;
             </div>
             <ServicosMobile />
         </section>
 
-        <section class="bg-[#fff]">
+        <section class="bg-slate-100">
             <div
                 class="w-full h-40"
-                style="background: linear-gradient(to bottom, #f6ff7d, #fff)"
+                style="background: linear-gradient(to bottom, #f6ff7d, rgb(241 245 249))"
             >
                 &nbsp;
             </div>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="container mx-auto select-none">
+        <div class="select-none">
             <div class="absolute w-full h-screen left-0 md:mt-16">
                 <img
                     draggable="false"

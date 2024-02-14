@@ -6,6 +6,7 @@ import { createInertiaApp } from "@inertiajs/vue3";
 import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers";
 import { ZiggyVue } from "../../vendor/tightenco/ziggy/dist/vue.m";
 import VueScrollTo from "vue-scrollto";
+// import AOS from "aos";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

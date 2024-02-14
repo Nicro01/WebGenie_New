@@ -1,5 +1,5 @@
 <template>
-    <div class="container select-none bg-[#f6ff7d]" id="servicos">
+    <div class="select-none bg-[#f6ff7d]" id="servicos">
         <h1 class="text-5xl text-center font-bold text-gray-900">
             Passo a Passo com a WebGenie
         </h1>
