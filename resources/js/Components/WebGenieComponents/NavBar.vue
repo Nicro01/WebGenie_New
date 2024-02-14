@@ -2,10 +2,12 @@
     <nav
         class="flex-no-wrap relative flex w-full items-center justify-between lg:flex-wrap lg:justify-start lg:py-4"
     >
-        <div class="flex w-full flex-wrap items-center justify-between px-3">
+        <div
+            class="flex w-full flex-wrap items-center justify-between md:px-3 z-10"
+        >
             <!-- Hamburger button for mobile view -->
             <button
-                class="block border-0 bg-transparent px-2 text-neutral-900 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+                class="block border-0 bg-transparent mt-5 md:mt-0 px-2 text-neutral-900 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 lg:hidden"
                 type="button"
                 data-te-collapse-init
                 data-te-target="#navbarSupportedContent1"

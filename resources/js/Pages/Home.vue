@@ -42,7 +42,7 @@
             </svg>
         </a>
 
-        <section class="bg-slate-100">
+        <section class="bg-slate-100 overflow-hidden">
             <HeroSection />
         </section>
 
@@ -66,7 +66,7 @@
             <Processo />
         </section>
 
-        <section class="bg-[#fff]">
+        <section v-if="!isMobile" class="bg-[#fff]">
             <div
                 class="w-full h-40"
                 style="background: linear-gradient(to bottom, #fff, #f6ff7d)"
@@ -74,6 +74,16 @@
                 &nbsp;
             </div>
             <Servicos />
+        </section>
+
+        <section v-if="isMobile" class="bg-[#fff]">
+            <div
+                class="w-full h-40"
+                style="background: linear-gradient(to bottom, #fff, #f6ff7d)"
+            >
+                &nbsp;
+            </div>
+            <ServicosMobile />
         </section>
 
         <section class="bg-[#fff]">
@@ -93,15 +103,21 @@ import About from "@/Components/WebGenieComponents/About.vue";
 import Servicos from "@/Components/WebGenieComponents/Servicos.vue";
 import Processo from "@/Components/WebGenieComponents/Processo.vue";
 import Projects from "@/Components/WebGenieComponents/Projects.vue";
+import ServicosMobile from "@/Components/WebGenieComponents/ServicosMobile.vue";
 
 export default {
     data() {
         return {
             isButtonVisible: false,
+            isMobile: false,
         };
     },
     mounted() {
         window.addEventListener("scroll", this.scrollFunction);
+
+        if (window.innerWidth <= 768) {
+            this.isMobile = true;
+        }
     },
     beforeDestroy() {
         window.removeEventListener("scroll", this.scrollFunction);
@@ -124,6 +140,7 @@ export default {
         Servicos,
         Processo,
         Projects,
+        ServicosMobile,
     },
 };
 </script>

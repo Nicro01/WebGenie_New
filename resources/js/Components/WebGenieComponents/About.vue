@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto select-none">
-        <div class="flex flex-col items-center pb-10 pt-24 h-screen relative">
+        <div class="flex flex-col items-center pb-10 pt-24 h-auto md:h-screen">
             <div
                 class="glass p-5 mt-5 rounded-xl flex flex-col shadow-lg border-2 border-solid border-white shadow-slate-200"
                 style="
@@ -11,11 +11,13 @@
                 data-aos="fade-up"
                 id="about"
             >
-                <h1 class="text-5xl text-center font-bold text-gray-900">
+                <h1
+                    class="md:text-5xl text-2xl text-center font-bold text-gray-900"
+                >
                     Criação de Websites
                 </h1>
                 <p
-                    class="text-gray-700 mt-4 max-w-2xl text-lg font-light leading-relaxed tracking-wide"
+                    class="text-gray-700 mt-4 max-w-2xl text-base md:text-lg font-light leading-relaxed tracking-wide"
                 >
                     Elaboração de páginas web personalizadas, desenhadas para
                     impulsionar a
@@ -23,7 +25,7 @@
                     seu negócio.
                 </p>
                 <p
-                    class="text-gray-700 mt-4 max-w-2xl text-lg font-light leading-relaxed tracking-wide"
+                    class="text-gray-700 mt-4 max-w-2xl text-base md:text-lg font-light leading-relaxed tracking-wide"
                 >
                     Possuir um website deixou de ser um luxo para se tornar uma
                     necessidade. No entanto, contar com uma
@@ -34,7 +36,7 @@
                     sobressair-se na concorrência.
                 </p>
                 <p
-                    class="text-gray-700 mt-4 max-w-2xl text-lg font-light leading-relaxed tracking-wide"
+                    class="text-gray-700 mt-4 max-w-2xl text-base md:text-lg font-light leading-relaxed tracking-wide"
                 >
                     Nossa proposta vai além da simples criação de páginas web.
                     Oferecemos criações sob medida, realizadas por
@@ -43,14 +45,14 @@
                     implementando soluções ótimas.
                 </p>
                 <p
-                    class="text-gray-700 mt-4 max-w-2xl text-lg font-light leading-relaxed tracking-wide"
+                    class="text-gray-700 mt-4 max-w-2xl text-base md:text-lg font-light leading-relaxed tracking-wide"
                 >
                     <b class="font-extrabold">Interatividade humanizada</b>:
                     esse é nosso principal objetivo na construção de uma ponte
                     entre seres humanos e sistemas digitais.
                 </p>
                 <p
-                    class="text-gray-700 mt-4 max-w-2xl text-lg font-light leading-relaxed tracking-wide"
+                    class="text-gray-700 mt-4 max-w-2xl text-base md:text-lg font-light leading-relaxed tracking-wide"
                 >
                     Com isso em mente, empregamos
                     <b class="font-extrabold">estratégias</b> e

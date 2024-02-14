@@ -1,11 +1,11 @@
 <template>
     <div>
         <div class="container mx-auto select-none">
-            <div class="absolute w-full -mt-16">
+            <div class="absolute w-full h-screen left-0 md:mt-16">
                 <img
                     draggable="false"
                     src="https://i.postimg.cc/s217Kyq1/1fb13409-4429-480b-80b8-c6b6f1546eae.png"
-                    class="opacity-5 mx-auto"
+                    class="opacity-5 md:mx-auto"
                     alt=""
                 />
             </div>
@@ -13,7 +13,7 @@
             <NavBar />
 
             <div
-                class="flex flex-col items-center justify-center h-screen"
+                class="flex flex-col items-center md:justify-center mt-20 pb-20 md:mb-0 md:mt-0 md:h-screen"
                 data-aos="zoom-in"
             >
                 <h1 class="text-5xl font-bold text-gray-900">WebGenie</h1>
@@ -44,7 +44,7 @@
             </div>
             <div class="relative">
                 <svg
-                    class="absolute bottom-0 w-full h-64"
+                    class="absolute bottom-0 w-full h-64 md:scale-100 scale-150"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 1600 900"
                     preserveAspectRatio="xMidYMid meet"

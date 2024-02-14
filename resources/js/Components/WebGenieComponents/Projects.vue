@@ -4,7 +4,9 @@
             class="flex flex-col items-center pb-10 pt-24 h-screen relative"
             id="projects"
         >
-            <h1 class="text-5xl text-center font-bold text-gray-900">
+            <h1
+                class="md:text-5xl text-3xl text-center font-bold text-gray-900"
+            >
                 Conheça Alguns de Nossos Projetos
             </h1>
         </div>

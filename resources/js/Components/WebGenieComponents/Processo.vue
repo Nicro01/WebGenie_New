@@ -1,10 +1,9 @@
 <template>
     <div class="container mx-auto select-none">
-        <div
-            class="flex flex-col items-center py-10 h-auto relative"
-            id="processo"
-        >
-            <h1 class="text-5xl text-center font-bold text-gray-900">
+        <div class="flex flex-col items-center py-10 h-auto" id="processo">
+            <h1
+                class="md:text-5xl text-3xl mb-20 text-center font-bold text-gray-900"
+            >
                 Seguimos Dois Princípios
             </h1>
             <!-- <p class="mt-3 max-w-xl text-center">
@@ -13,9 +12,10 @@
                 clientes.
             </p> -->
 
-            <div class="relative">
+            <div class="relative" v-if="!isMobile">
                 <div
                     @click="toggleCardHover(1)"
+                    v-if="!isMobile"
                     :class="cardHover1 ? '-ms-36 ' : '-ms-36 '"
                     class="cursor-pointer z-10 absolute w-80 floating px-4 py-2 font-bold left-0 mt-24 bg-[#002537] text-slate-100 shadow-lg rounded-lg"
                 >
@@ -33,6 +33,7 @@
                 </div>
                 <div
                     @click="toggleCardHover(2)"
+                    v-if="!isMobile"
                     :class="cardHover2 ? '-mr-36 ' : '-mr-36  '"
                     class="cursor-pointer z-10 absolute floating px-4 py-2 w-80 font-bold right-0 mt-24 bg-[#002537] text-slate-100 shadow-lg rounded-lg"
                 >
@@ -55,7 +56,42 @@
                     alt=""
                 />
             </div>
-            <div class="-mt-10">
+
+            <div v-if="isMobile">
+                <div
+                    @click="toggleCardHover(1)"
+                    class="z-10 w-80 mb-5 px-4 py-2 font-bold bg-[#002537] text-slate-100 shadow-lg rounded-lg"
+                >
+                    <h3 class="text-xl text-center">Agilidade</h3>
+                    <p
+                        v-show="cardHover1"
+                        class="font-light text-base max-w-80 mt-5 pb-2"
+                    >
+                        Agilidade Nosso foco em agilidade significa adaptar-se
+                        rapidamente e responder às mudanças com rapidez,
+                        assegurando entregas eficazes e pontuais. Buscamos
+                        sempre avançar com eficiência, mantendo a qualidade e a
+                        satisfação do cliente no centro de nossa abordagem.
+                    </p>
+                </div>
+                <div
+                    @click="toggleCardHover(2)"
+                    class="z-10 w-80 mb-5 px-4 py-2 font-bold bg-[#002537] text-slate-100 shadow-lg rounded-lg"
+                >
+                    <h3 class="text-xl text-center">Eficiência</h3>
+                    <p
+                        v-show="cardHover2"
+                        class="font-light text-base max-w-80 mt-5 pb-2"
+                    >
+                        Priorizamos a eficiência, otimizando recursos para
+                        superar expectativas. Combinamos expertise técnica com
+                        gestão precisa, garantindo resultados de alta qualidade,
+                        sustentáveis e adaptáveis às necessidades futuras.
+                    </p>
+                </div>
+            </div>
+
+            <div class="md:-mt-10">
                 Deslizar para Baixo
                 <svg
                     class="animate-bounce w-6 h-6 mx-auto mt-4 cursor-pointer"
@@ -86,10 +122,14 @@ export default {
         return {
             cardHover1: false,
             cardHover2: false,
+            isMobile: false,
         };
     },
     mounted() {
         AOS.init();
+        if (window.innerWidth <= 768) {
+            this.isMobile = true;
+        }
     },
     methods: {
         toggleCardHover(i) {
