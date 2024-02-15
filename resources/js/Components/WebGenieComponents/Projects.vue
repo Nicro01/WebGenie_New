@@ -15,15 +15,17 @@
             data-aos="fade-up"
         >
             <div
-                class="relative col-span-1 rounded-lg shadow-lg cursor-pointer bg-transparent"
+                class="relative h-[350px] col-span-1 flex items-center rounded-lg shadow-lg cursor-pointer bg-slate-800"
             >
                 <img
-                    class="z-0 rounded-lg"
-                    src="https://picsum.photos/400/400"
+                    class="z-0 rounded-lg -mt-5"
+                    src="https://i.postimg.cc/h45MC4zW/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923.png"
+                    width="350"
+                    height="350"
                     alt=""
                 />
                 <div
-                    class="absolute flex items-center justify-center top-0 rounded-lg w-[400px] h-[400px] z-10 bg-white bg-opacity-0 opacity-0 hover:opacity-100 hover:bg-opacity-50 transition-all duration-100"
+                    class="absolute flex items-center justify-center top-0 rounded-lg w-[350px] h-[350px] z-10 bg-white bg-opacity-0 opacity-0 hover:opacity-100 hover:bg-opacity-50 transition-all duration-100"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -42,15 +44,17 @@
                 </div>
             </div>
             <div
-                class="relative col-span-1 rounded-lg shadow-lg cursor-pointer bg-transparent"
+                class="relative col-span-1 flex items-center rounded-lg shadow-lg cursor-pointer bg-orange-500"
             >
                 <img
-                    class="z-0 rounded-lg"
-                    src="https://picsum.photos/400/400"
+                    class="z-0 rounded-lg -mt-5"
+                    src="https://i.postimg.cc/gkHYDSsf/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923-1.png"
+                    width="350"
+                    height="350"
                     alt=""
                 />
                 <div
-                    class="absolute flex items-center justify-center top-0 rounded-lg w-[400px] h-[400px] z-10 bg-white opacity-0 hover:opacity-50 transition-all duration-100"
+                    class="absolute flex items-center justify-center top-0 rounded-lg w-[350px] h-[350px] z-10 bg-white opacity-0 hover:opacity-50 transition-all duration-100"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -69,15 +73,17 @@
                 </div>
             </div>
             <div
-                class="relative col-span-1 rounded-lg shadow-lg cursor-pointer bg-transparent"
+                class="relative col-span-1 flex items-center rounded-lg shadow-lg cursor-pointer bg-green-700"
             >
                 <img
-                    class="z-0 rounded-lg"
-                    src="https://picsum.photos/400/400"
+                    class="z-0 rounded-lg -mt-5"
+                    src="https://i.postimg.cc/W3YZhpFw/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923-2.png"
+                    width="350"
+                    height="350"
                     alt=""
                 />
                 <div
-                    class="absolute flex items-center justify-center top-0 rounded-lg w-[400px] h-[400px] z-10 bg-white opacity-0 hover:opacity-50 transition-all duration-100"
+                    class="absolute flex items-center justify-center top-0 rounded-lg w-[350px] h-[350px] z-10 bg-white opacity-0 hover:opacity-50 transition-all duration-100"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -96,15 +102,17 @@
                 </div>
             </div>
             <div
-                class="relative col-span-1 rounded-lg shadow-lg cursor-pointer bg-transparent"
+                class="relative h-[350px] col-span-1 flex items-center rounded-lg shadow-lg cursor-pointer bg-black"
             >
                 <img
-                    class="z-0 rounded-lg"
-                    src="https://picsum.photos/400/400"
+                    class="z-0 rounded-lg -mt-5"
+                    src="https://i.postimg.cc/yxQWLLXh/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923-3.png"
+                    width="350"
+                    height="350"
                     alt=""
                 />
                 <div
-                    class="absolute flex items-center justify-center top-0 rounded-lg w-[400px] h-[400px] z-10 bg-white opacity-0 hover:opacity-50 transition-all duration-100"
+                    class="absolute flex items-center justify-center top-0 rounded-lg w-[350px] h-[350px] z-10 bg-white opacity-0 hover:opacity-50 transition-all duration-100"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -123,15 +131,17 @@
                 </div>
             </div>
             <div
-                class="relative col-span-1 rounded-lg shadow-lg cursor-pointer bg-transparent"
+                class="relative col-span-1 flex items-center rounded-lg shadow-lg cursor-pointer bg-[#f0b93f]"
             >
                 <img
-                    class="z-0 rounded-lg"
-                    src="https://picsum.photos/400/400"
+                    class="z-0 rounded-lg -mt-5"
+                    src="https://i.postimg.cc/Jn9psC2v/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923-4.png"
+                    width="350"
+                    height="350"
                     alt=""
                 />
                 <div
-                    class="absolute flex items-center justify-center top-0 rounded-lg w-[400px] h-[400px] z-10 bg-white opacity-0 hover:opacity-50 transition-all duration-100"
+                    class="absolute flex items-center justify-center top-0 rounded-lg w-[350px] h-[350px] z-10 bg-white opacity-0 hover:opacity-50 transition-all duration-100"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -150,15 +160,17 @@
                 </div>
             </div>
             <div
-                class="relative col-span-1 rounded-lg shadow-lg cursor-pointer bg-transparent"
+                class="relative col-span-1 flex items-center rounded-lg shadow-lg cursor-pointer bg-[#52a7ad]"
             >
                 <img
-                    class="z-0 rounded-lg"
-                    src="https://picsum.photos/400/400"
+                    class="z-0 rounded-lg -mt-5"
+                    src="https://i.postimg.cc/HL8bxkc1/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923-5.png"
+                    width="350"
+                    height="350"
                     alt=""
                 />
                 <div
-                    class="absolute flex items-center justify-center top-0 rounded-lg w-[400px] h-[400px] z-10 bg-white opacity-0 hover:opacity-50 transition-all duration-100"
+                    class="absolute flex items-center justify-center top-0 rounded-lg w-[350px] h-[350px] z-10 bg-white opacity-0 hover:opacity-50 transition-all duration-100"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
