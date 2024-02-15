@@ -18,6 +18,7 @@
                 :key="index"
                 :class="card.bg"
                 data-aos="fade-up"
+                @click="redirect(card.link)"
                 class="relative h-[350px] overflow-hidden col-span-1 flex items-center rounded-lg shadow-lg cursor-pointer"
             >
                 <img
@@ -66,31 +67,37 @@ export default {
                     image: "https://i.postimg.cc/h45MC4zW/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923.png",
                     zoom: false,
                     bg: "bg-slate-800",
+                    link: "https://tmktlondrina.com.br/",
                 },
                 {
                     image: "https://i.postimg.cc/gkHYDSsf/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923-1.png",
                     zoom: false,
                     bg: "bg-orange-500",
+                    link: "https://maisgerencia.com.br/",
                 },
                 {
                     image: "https://i.postimg.cc/W3YZhpFw/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923-2.png",
                     zoom: false,
                     bg: "bg-green-500",
+                    link: "https://venir.cloud/",
                 },
                 {
                     image: "https://i.postimg.cc/yxQWLLXh/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923-3.png",
                     zoom: false,
                     bg: "bg-black",
+                    link: "https://brutalism.webgenie.com.br/",
                 },
                 {
                     image: "https://i.postimg.cc/Jn9psC2v/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923-4.png",
                     zoom: false,
                     bg: "bg-[#f0ca4f]",
+                    link: "https://uniondev.com.br/",
                 },
                 {
                     image: "https://i.postimg.cc/HL8bxkc1/macbook-pro-mockup-with-a-white-iphone-6-in-front-view-a11923-5.png",
                     zoom: false,
                     bg: "bg-[#519fa5]",
+                    link: "https://santosemalatesta.com.br/",
                 },
             ],
         };
@@ -108,6 +115,9 @@ export default {
         },
         leave(index) {
             this.cards[index].zoom = false;
+        },
+        redirect(link) {
+            window.open(link, "_blank");
         },
     },
 };
