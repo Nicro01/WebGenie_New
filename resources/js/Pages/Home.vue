@@ -21,10 +21,10 @@
 
         <a
             v-show="isButtonVisible"
+            @click="backToTop"
             data-te-ripple-init
             data-te-ripple-color="light"
-            v-scroll-to="'#top'"
-            class="fixed cursor-pointer bg-opacity-30 bottom-5 left-5 z-10 border-2 border-neutral-700 animate-bounce rounded-full bg-neutral-700 p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-neurtral-700 hover:shadow-lg focus:bg-neutral-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg"
+            class="fixed cursor-pointer bg-opacity-30 bottom-5 left-5 z-50 border-2 border-neutral-700 animate-bounce rounded-full bg-neutral-700 p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-neurtral-700 hover:shadow-lg focus:bg-neutral-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg"
         >
             <svg
                 aria-hidden="true"
@@ -126,8 +126,27 @@
             <Projects />
         </section>
 
-        <section class="bg-slate-100">
+        <section class="bg-orange-400 overflow-x-hidden relative">
+            <div
+                class="w-full h-40"
+                style="
+                    background: linear-gradient(
+                        to bottom,
+
+                        rgb(241 245 249),
+                        #fb923c66,
+                        #fb923c
+                    );
+                "
+            >
+                &nbsp;
+            </div>
+            <Waves />
             <Contact />
+        </section>
+
+        <section class="bg-white">
+            <Footer />
         </section>
     </div>
 </template>
@@ -139,6 +158,10 @@ import Processo from "@/Components/WebGenieComponents/Processo.vue";
 import Projects from "@/Components/WebGenieComponents/Projects.vue";
 import ServicosMobile from "@/Components/WebGenieComponents/ServicosMobile.vue";
 import Contact from "@/Components/WebGenieComponents/Contact.vue";
+import Waves from "@/Components/WebGenieComponents/Waves.vue";
+import Footer from "@/Components/WebGenieComponents/Footer.vue";
+
+import VueScrollTo from "vue-scrollto";
 
 export default {
     data() {
@@ -155,6 +178,8 @@ export default {
         Projects,
         ServicosMobile,
         Contact,
+        Waves,
+        Footer,
     },
     mounted() {
         window.addEventListener("scroll", this.scrollFunction);
@@ -167,6 +192,9 @@ export default {
         window.removeEventListener("scroll", this.scrollFunction);
     },
     methods: {
+        backToTop() {
+            VueScrollTo.scrollTo("#top", 500);
+        },
         scrollFunction() {
             if (document.documentElement.scrollTop > 20) {
                 this.isButtonVisible = true;

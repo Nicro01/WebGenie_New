@@ -94,6 +94,15 @@
                             >Projetos</a
                         >
                     </li>
+                    <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+                        <a
+                            class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none"
+                            href="#"
+                            data-te-nav-link-ref
+                            v-scroll-to="'#contact'"
+                            >Contato</a
+                        >
+                    </li>
                 </ul>
             </div>
         </div>

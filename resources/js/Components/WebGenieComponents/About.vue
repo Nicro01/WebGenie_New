@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto select-none">
-        <div class="flex flex-col items-center pb-10 pt-24 h-auto">
+        <div class="flex flex-col items-center pb-10 pt-24 h-auto" id="about">
             <div
                 class="glass p-5 mt-5 rounded-xl flex flex-col shadow-lg border-2 border-solid border-white shadow-slate-200"
                 style="
@@ -9,7 +9,6 @@
                     background-position: center;
                 "
                 data-aos="fade-up"
-                id="about"
             >
                 <h1
                     class="md:text-5xl text-2xl text-center font-bold text-gray-900"

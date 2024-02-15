@@ -1,7 +1,7 @@
 <template>
     <div
         id="projects"
-        class="py-10 flex flex-col items-center justify-center gap-10"
+        class="md:pt-10 md:pb-40 py-20 flex flex-col items-center justify-center gap-10"
     >
         <h1
             class="text-3xl px-5 md:text-5xl font-bold text-gray-900 text-center"
