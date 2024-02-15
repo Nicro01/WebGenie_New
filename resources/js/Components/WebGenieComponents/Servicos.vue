@@ -7,7 +7,7 @@
             class="grid grid-cols-1 grid-rows-4 gap-10 py-10 mt-10 h-screen relative"
         >
             <div
-                class="col-span-1 row-span-1 w-[60%] bg-white rounded-e-xl p-5 shadow-lg"
+                class="col-span-1 flex row-span-1 w-[60%] bg-white rounded-e-xl p-5 shadow-lg"
                 data-aos="fade-up"
             >
                 <div class="flex gap-10 items-center justify-center">
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div
-                class="col-span-1 row-span-1 w-[60%] bg-white rounded-s-xl p-5 shadow-lg"
+                class="col-span-1 flex row-span-1 w-[60%] bg-white rounded-s-xl p-5 shadow-lg"
                 data-aos="fade-up"
                 style="justify-self: end"
             >
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div
-                class="col-span-1 row-span-1 w-[60%] bg-white rounded-e-xl p-5 shadow-lg"
+                class="col-span-1 flex row-span-1 w-[60%] bg-white rounded-e-xl p-5 shadow-lg"
                 data-aos="fade-up"
             >
                 <div class="flex gap-10 items-center justify-center">
@@ -65,7 +65,7 @@
                 </div>
             </div>
             <div
-                class="col-span-1 row-span-1 w-[60%] bg-white rounded-s-xl p-5 shadow-lg"
+                class="col-span-1 flex row-span-1 w-[60%] bg-white rounded-s-xl p-5 shadow-lg"
                 data-aos="fade-up"
                 style="justify-self: end"
             >
@@ -87,7 +87,7 @@
         </div>
 
         <div
-            class="w-[60%] bg-white rounded-e-xl p-5 shadow-lg"
+            class="w-[60%] bg-white xl:py-5 rounded-e-xl p-5 shadow-lg"
             data-aos="fade-up"
         >
             <div class="flex gap-10 items-center justify-center">

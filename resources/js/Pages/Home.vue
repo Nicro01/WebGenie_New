@@ -49,7 +49,13 @@
         <section class="bg-slate-100">
             <div
                 class="w-full h-40"
-                style="background: linear-gradient(to bottom, #7ba5ea, rgb(241 245 249))"
+                style="
+                    background: linear-gradient(
+                        to bottom,
+                        #7ba5ea,
+                        rgb(241 245 249)
+                    );
+                "
             >
                 &nbsp;
             </div>
@@ -59,7 +65,13 @@
         <section class="bg-slate-100">
             <div
                 class="w-full h-40"
-                style="background: linear-gradient(to bottom, rgb(241 245 249), rgb(241 245 249))"
+                style="
+                    background: linear-gradient(
+                        to bottom,
+                        rgb(241 245 249),
+                        rgb(241 245 249)
+                    );
+                "
             >
                 &nbsp;
             </div>
@@ -69,7 +81,13 @@
         <section v-if="!isMobile" class="bg-slate-100">
             <div
                 class="w-full h-40"
-                style="background: linear-gradient(to bottom, rgb(241 245 249), #f6ff7d)"
+                style="
+                    background: linear-gradient(
+                        to bottom,
+                        rgb(241 245 249),
+                        #f6ff7d
+                    );
+                "
             >
                 &nbsp;
             </div>
@@ -79,7 +97,13 @@
         <section v-if="isMobile" class="bg-slate-100">
             <div
                 class="w-full h-40"
-                style="background: linear-gradient(to bottom, rgb(241 245 249), #f6ff7d)"
+                style="
+                    background: linear-gradient(
+                        to bottom,
+                        rgb(241 245 249),
+                        #f6ff7d
+                    );
+                "
             >
                 &nbsp;
             </div>
@@ -89,11 +113,21 @@
         <section class="bg-slate-100">
             <div
                 class="w-full h-40"
-                style="background: linear-gradient(to bottom, #f6ff7d, rgb(241 245 249))"
+                style="
+                    background: linear-gradient(
+                        to bottom,
+                        #f6ff7d,
+                        rgb(241 245 249)
+                    );
+                "
             >
                 &nbsp;
             </div>
             <Projects />
+        </section>
+
+        <section class="bg-slate-100">
+            <Contact />
         </section>
     </div>
 </template>
@@ -104,6 +138,7 @@ import Servicos from "@/Components/WebGenieComponents/Servicos.vue";
 import Processo from "@/Components/WebGenieComponents/Processo.vue";
 import Projects from "@/Components/WebGenieComponents/Projects.vue";
 import ServicosMobile from "@/Components/WebGenieComponents/ServicosMobile.vue";
+import Contact from "@/Components/WebGenieComponents/Contact.vue";
 
 export default {
     data() {
@@ -111,6 +146,15 @@ export default {
             isButtonVisible: false,
             isMobile: false,
         };
+    },
+    components: {
+        HeroSection,
+        About,
+        Servicos,
+        Processo,
+        Projects,
+        ServicosMobile,
+        Contact,
     },
     mounted() {
         window.addEventListener("scroll", this.scrollFunction);
@@ -133,14 +177,6 @@ export default {
                 this.isButtonVisible = false;
             }
         },
-    },
-    components: {
-        HeroSection,
-        About,
-        Servicos,
-        Processo,
-        Projects,
-        ServicosMobile,
     },
 };
 </script>
