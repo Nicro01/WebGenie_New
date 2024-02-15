@@ -11,7 +11,10 @@
         </h1>
 
         <div class="py-8 lg:py-8 px-4 mx-auto max-w-screen-md">
-            <p class="mb-8 lg:mb-16 font-medium text-center sm:text-xl">
+            <p
+                class="mb-8 lg:mb-16 font-medium text-center sm:text-xl"
+                data-aos="zoom-in"
+            >
                 Estamos prontos para te ajudar a transformar a sua ideia em
                 realidade. Entre em contato conosco e vamos conversar sobre o
                 seu projeto.
@@ -24,6 +27,7 @@
                             id="subject"
                             class="block w-full text-sm bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
                             placeholder="Seu Nome"
+                            data-aos="zoom-in"
                             required
                         />
                     </div>
@@ -33,12 +37,14 @@
                             id="email"
                             class="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full"
                             placeholder="nome@webgenie.com.br"
+                            data-aos="zoom-in"
                             required
                         />
                     </div>
                     <button
                         type="button"
                         class="col-span-2 md:col-span-1 py-2 inline-block rounded border-2 border-neutral-50 px-6 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+                        data-aos="zoom-in"
                         data-te-ripple-init
                     >
                         Enviar

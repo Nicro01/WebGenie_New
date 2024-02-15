@@ -62,8 +62,8 @@
                             href="#"
                             data-te-nav-link-ref
                             v-scroll-to="'#about'"
-                            >Criação de Sites</a
-                        >
+                            >Criação de Sites
+                        </a>
                     </li>
                     <!-- Team link -->
                     <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>

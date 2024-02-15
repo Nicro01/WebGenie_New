@@ -12,12 +12,12 @@
 
         <div
             class="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-1 max-w-7xl mt-14 select-none"
-            data-aos="fade-up"
         >
             <div
                 v-for="(card, index) in cards"
                 :key="index"
                 :class="card.bg"
+                data-aos="fade-up"
                 class="relative h-[350px] overflow-hidden col-span-1 flex items-center rounded-lg shadow-lg cursor-pointer"
             >
                 <img

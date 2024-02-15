@@ -115,7 +115,9 @@
                             </svg>
                             <h2 class="capitalize text-xl">Instagram</h2>
                         </button>
-                        <button
+                        <a
+                            href="https://w.app/XwyTQZ"
+                            target="_blank"
                             type="button"
                             data-te-ripple-init
                             data-te-ripple-color="light"
@@ -133,7 +135,7 @@
                                 />
                             </svg>
                             <h2 class="capitalize text-xl">WhatsApp</h2>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

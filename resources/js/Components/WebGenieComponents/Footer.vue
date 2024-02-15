@@ -46,7 +46,8 @@
                 </a>
 
                 <a
-                    href="#!"
+                    href="https://www.instagram.com/webgenie_code/"
+                    target="_blank"
                     type="button"
                     class="m-1 h-9 w-9 rounded-full border-2 border-neutral-300 uppercase leading-normal text-neutral-600 transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
                     data-te-ripple-init
@@ -84,7 +85,8 @@
                 </a>
 
                 <a
-                    href="#!"
+                    href="https://w.app/XwyTQZ"
+                    target="_blank"
                     type="button"
                     class="m-1 h-9 w-9 rounded-full border-2 border-neutral-300 uppercase leading-normal text-neutral-600 transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
                     data-te-ripple-init
@@ -137,7 +139,7 @@
                         <div class="mb-6 md:mr-auto">
                             <button
                                 type="submit"
-                                class="inline-block rounded border-2 border-neutral-500 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-600 transition duration-150 ease-in-out hover:border-neutral-900 hover:bg-neutral-900 hover:bg-opacity-10 hover:text-neutral-700 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
+                                class="inline-block w-full md:w-auto rounded border-2 border-neutral-500 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-600 transition duration-150 ease-in-out hover:border-neutral-900 hover:bg-neutral-900 hover:bg-opacity-10 hover:text-neutral-700 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
                                 data-te-ripple-init
                                 data-te-ripple-color="light"
                             >
@@ -151,90 +153,12 @@
             <!-- Copyright information -->
             <div class="mb-6">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sunt distinctio earum repellat quaerat voluptatibus placeat
-                    nam, commodi optio pariatur est quia magnam eum harum
-                    corrupti dicta, aliquam sequi voluptate quas.
+                    A WebGenie é uma agência de desenvolvimento web e de
+                    sistemas que oferece soluções digitais para empresas e
+                    empreendedores. Nossa missão é ajudar nossos clientes a
+                    alcançar seus objetivos de negócios, fornecendo soluções
+                    digitais inovadoras e de alta qualidade.
                 </p>
-            </div>
-
-            <!-- Links section -->
-            <div class="grid grid-cols-4 md:grid-cols-2 lg:grid-cols-4">
-                <div class="mb-6">
-                    <h5 class="mb-2.5 font-bold uppercase">Links</h5>
-
-                    <ul class="mb-0 list-none">
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="mb-6">
-                    <h5 class="mb-2.5 font-bold uppercase">Links</h5>
-
-                    <ul class="mb-0 list-none">
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="mb-6">
-                    <h5 class="mb-2.5 font-bold uppercase">Links</h5>
-
-                    <ul class="mb-0 list-none">
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="mb-6">
-                    <h5 class="mb-2.5 font-bold uppercase">Links</h5>
-
-                    <ul class="mb-0 list-none">
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-neutral-600">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
 

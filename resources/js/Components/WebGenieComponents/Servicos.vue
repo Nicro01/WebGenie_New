@@ -95,7 +95,9 @@
                     <p class="text-4xl">Entre em Contato Conosco</p>
                 </div>
                 <div class="grid grid-cols-2 gap-10 w-full">
-                    <button
+                    <a
+                        href="https://www.instagram.com/webgenie_code/"
+                        target="_blank"
                         type="button"
                         data-te-ripple-init
                         data-te-ripple-color="light"
@@ -113,8 +115,10 @@
                             />
                         </svg>
                         <h2 class="capitalize text-2xl">Instagram</h2>
-                    </button>
-                    <button
+                    </a>
+                    <a
+                        href="https://w.app/XwyTQZ"
+                        target="_blank"
                         type="button"
                         data-te-ripple-init
                         data-te-ripple-color="light"
@@ -132,7 +136,7 @@
                             />
                         </svg>
                         <h2 class="capitalize text-2xl">WhatsApp</h2>
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
