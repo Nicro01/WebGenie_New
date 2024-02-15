@@ -11,42 +11,46 @@
                 dispositivos e projetados para ajudar sua empresa a atrair novos
                 clientes.
             </p> -->
-
+            
             <div class="relative" v-if="!isMobile">
+                <!-- @click="toggleCardHover(1)" -->
+                <!-- CARD-PRINCIPIO -->
                 <div
-                    @click="toggleCardHover(1)"
                     v-if="!isMobile"
-                    :class="cardHover1 ? '-ms-36 ' : '-ms-36 '"
-                    class="cursor-pointer z-10 absolute w-80 floating px-4 py-2 font-bold left-0 mt-24 bg-[#002537] text-slate-100 shadow-lg rounded-lg"
+                    class="card-principio -ms-36 cursor-pointer z-10 absolute w-80 floating px-4 py-2 font-bold left-0 mt-24 bg-[#000A11] text-[#B1C9FC] shadow-lg rounded-lg"
                 >
                     <h3 class="text-2xl text-center">Agilidade</h3>
-                    <p
-                        v-show="cardHover1"
-                        class="font-light text-base max-w-80 mt-5 pb-2"
-                    >
-                        Agilidade Nosso foco em agilidade significa adaptar-se
-                        rapidamente e responder às mudanças com rapidez,
-                        assegurando entregas eficazes e pontuais. Buscamos
-                        sempre avançar com eficiência, mantendo a qualidade e a
-                        satisfação do cliente no centro de nossa abordagem.
-                    </p>
+                    <!-- v-show="cardHover1" -->
+                    <!-- TEXTO-PRINCIPIO -->
+                    <div class="texto-principio">
+                        <p
+                            class="font-light text-base max-w-80 mt-5 pb-2 text-[#B1C9FC]"
+                        >
+                            Agilidade Nosso foco em agilidade significa adaptar-se
+                            rapidamente e responder às mudanças com rapidez,
+                            assegurando entregas eficazes e pontuais. Buscamos
+                            sempre avançar com eficiência, mantendo a qualidade e a
+                            satisfação do cliente no centro de nossa abordagem.
+                        </p>
+                    </div>
                 </div>
+                
                 <div
-                    @click="toggleCardHover(2)"
                     v-if="!isMobile"
-                    :class="cardHover2 ? '-mr-36 ' : '-mr-36  '"
-                    class="cursor-pointer z-10 absolute floating px-4 py-2 w-80 font-bold right-0 mt-24 bg-[#002537] text-slate-100 shadow-lg rounded-lg"
+                    class="card-principio cursor-pointer -mr-36 z-10 absolute floating px-4 py-2 w-80 font-bold right-0 mt-24 bg-[#002537] text-slate-100 shadow-lg rounded-lg"
                 >
-                    <h3 class="text-2xl text-center">Eficiência</h3>
-                    <p
-                        v-show="cardHover2"
-                        class="font-light text-base max-w-80 mt-5 pb-2"
-                    >
-                        Priorizamos a eficiência, otimizando recursos para
-                        superar expectativas. Combinamos expertise técnica com
-                        gestão precisa, garantindo resultados de alta qualidade,
-                        sustentáveis e adaptáveis às necessidades futuras.
-                    </p>
+                    <h3 class="text-2xl text-center text-slate-100">Eficiência</h3>
+                    <div class="texto-principio">
+
+                        <p
+                            class="font-light text-base max-w-80 mt-5 pb-2 text-slate-100"
+                        >
+                            Priorizamos a eficiência, otimizando recursos para
+                            superar expectativas. Combinamos expertise técnica com
+                            gestão precisa, garantindo resultados de alta qualidade,
+                            sustentáveis e adaptáveis às necessidades futuras.
+                        </p>
+                    </div>
                 </div>
 
                 <img
@@ -62,7 +66,16 @@
                     @click="toggleCardHover(1)"
                     class="z-10 w-80 mb-5 px-4 py-2 font-bold bg-[#002537] text-slate-100 shadow-lg rounded-lg"
                 >
-                    <h3 class="text-xl text-center">Agilidade</h3>
+                    <div class="flex w-full items-center">
+                        
+                        <div class="flex justify-center w-full">
+                            <h3 class="text-xl text-center">Agilidade</h3>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="svg-seta w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>  
+                    </div>
+                    
                     <p
                         v-show="cardHover1"
                         class="font-light text-base max-w-80 mt-5 pb-2"
