@@ -18,7 +18,7 @@
     @inertiaHead
 </head>
 
-<body class="antialiased"
+<body class="antialiased" id="top"
     style="font-family: 'Dosis', sans-serif; font-optical-sizing: auto; font-weight: <weight>;
     font-style: normal;">
     @inertia

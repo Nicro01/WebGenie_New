@@ -1,5 +1,5 @@
 <template>
-    <div id="top">
+    <div>
         <button
             type="button"
             data-te-ripple-init
@@ -168,10 +168,7 @@ export default {
     },
     methods: {
         scrollFunction() {
-            if (
-                document.body.scrollTop > 20 ||
-                document.documentElement.scrollTop > 20
-            ) {
+            if (document.documentElement.scrollTop > 20) {
                 this.isButtonVisible = true;
             } else {
                 this.isButtonVisible = false;
