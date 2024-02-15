@@ -112,5 +112,12 @@
 <script>
 import { Collapse, Dropdown, initTE } from "tw-elements";
 
-initTE({ Collapse, Dropdown });
+export default {
+    mounted() {
+        initTE({
+            Collapse,
+            Dropdown,
+        });
+    },
+};
 </script>
