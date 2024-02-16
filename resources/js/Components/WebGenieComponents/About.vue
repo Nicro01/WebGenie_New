@@ -1,6 +1,9 @@
 <template>
     <div class="container mx-auto select-none">
-        <div class="flex flex-col items-center pb-10 pt-24 h-auto" id="about">
+        <div
+            class="flex flex-col items-center md:pb-10 pt-24 h-auto"
+            id="about"
+        >
             <div
                 class="glass p-5 mt-5 rounded-xl flex flex-col shadow-lg border-2 border-solid border-white shadow-slate-200"
                 style="
@@ -73,7 +76,7 @@
                     Fazer Orçamento
                 </a>
             </div>
-            <div class="mt-10">
+            <div class="mt-10" v-show="!isMobile">
                 Deslizar para Baixo
                 <svg
                     class="animate-bounce w-6 h-6 mx-auto mt-4 cursor-pointer"
@@ -102,11 +105,17 @@ import { Ripple, initTE } from "tw-elements";
 
 export default {
     name: "About",
+    data() {
+        return {
+            isMobile: false,
+        };
+    },
     mounted() {
         AOS.init();
         initTE({
             Ripple,
         });
+        this.isMobile = window.innerWidth < 768;
     },
 };
 </script>

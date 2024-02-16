@@ -129,7 +129,7 @@
                 </div>
             </div>
 
-            <div class="md:-mt-10">
+            <div class="md:-mt-10" v-show="!isMobile">
                 Deslizar para Baixo
                 <svg
                     class="animate-bounce w-6 h-6 mx-auto mt-4 cursor-pointer"

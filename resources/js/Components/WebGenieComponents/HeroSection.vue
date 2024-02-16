@@ -18,13 +18,13 @@
             >
                 <h1 class="text-5xl font-bold text-gray-900">WebGenie</h1>
                 <p
-                    class="text-gray-700 text-center mt-4 max-w-2xl text-lg font-light leading-relaxed tracking-wide"
+                    class="text-gray-700 text-center mt-4 max-w-2xl mx-10 md:mx-auto text-lg font-light leading-relaxed tracking-wide"
                 >
                     Onde a magia da tecnologia encontra soluções digitais sob
                     medida para transformar seu negócio online em uma Obra-Prima
                 </p>
                 <div class="mt-20">
-                    Deslizar para Baixo
+                    <!-- Deslizar para Baixo
                     <svg
                         class="animate-bounce w-6 h-6 mx-auto mt-4 cursor-pointer"
                         xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,14 @@
                             stroke-width="2"
                             d="M19 14l-7 7m0 0l-7-7m7 7V3"
                         />
-                    </svg>
+                    </svg> -->
+                    <img
+                        v-show="!isMobile"
+                        draggable="false"
+                        class="w-32 brightness-50"
+                        src="https://rhogan.com.br/wp-content/uploads/2020/11/scroll-white.gif"
+                        alt=""
+                    />
                 </div>
             </div>
             <div class="relative">
@@ -121,8 +128,14 @@ import "aos/dist/aos.css";
 import NavBar from "@/Components/WebGenieComponents/NavBar.vue";
 
 export default {
+    data() {
+        return {
+            isMobile: false,
+        };
+    },
     mounted() {
         AOS.init();
+        this.isMobile = window.innerWidth < 768;
     },
     components: {
         NavBar,
