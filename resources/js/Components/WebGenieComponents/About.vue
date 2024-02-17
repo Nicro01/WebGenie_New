@@ -1,98 +1,16 @@
 <template>
-    <div class="container mx-auto select-none">
-        <div
-            class="flex flex-col items-center md:pb-10 pt-24 h-auto"
-            id="about"
-        >
-            <div
-                class="glass p-5 mt-5 rounded-xl flex flex-col shadow-lg border-2 border-solid border-white shadow-slate-200"
-                style="
-                    background-image: url('https://i.postimg.cc/tCNcrywt/Design-sem-nome.png');
-                    background-size: cover;
-                    background-position: center;
-                "
-                data-aos="fade-up"
-            >
-                <h1
-                    class="md:text-5xl text-2xl text-center font-bold text-gray-900"
-                >
-                    Criação de Websites
-                </h1>
-                <p
-                    class="text-gray-700 mt-4 max-w-2xl text-base md:text-lg font-light leading-relaxed tracking-wide"
-                >
-                    Elaboração de páginas web personalizadas, desenhadas para
-                    impulsionar a
-                    <b class="font-extrabold">captação de clientes</b> para o
-                    seu negócio.
-                </p>
-                <p
-                    class="text-gray-700 mt-4 max-w-2xl text-base md:text-lg font-light leading-relaxed tracking-wide"
-                >
-                    Possuir um website deixou de ser um luxo para se tornar uma
-                    necessidade. No entanto, contar com uma
-                    <b class="font-extrabold">criação única</b>, que funcione
-                    como um elo facilitador de interações comerciais entre sua
-                    organização e os clientes, é um
-                    <b class="font-extrabold">diferencial crítico</b> para
-                    sobressair-se na concorrência.
-                </p>
-                <p
-                    class="text-gray-700 mt-4 max-w-2xl text-base md:text-lg font-light leading-relaxed tracking-wide"
-                >
-                    Nossa proposta vai além da simples criação de páginas web.
-                    Oferecemos criações sob medida, realizadas por
-                    <b class="font-extrabold">especialistas</b>
-                    dedicados a compreender suas exigências, propondo e
-                    implementando soluções ótimas.
-                </p>
-                <p
-                    class="text-gray-700 mt-4 max-w-2xl text-base md:text-lg font-light leading-relaxed tracking-wide"
-                >
-                    <b class="font-extrabold">Interatividade humanizada</b>:
-                    esse é nosso principal objetivo na construção de uma ponte
-                    entre seres humanos e sistemas digitais.
-                </p>
-                <p
-                    class="text-gray-700 mt-4 max-w-2xl text-base md:text-lg font-light leading-relaxed tracking-wide"
-                >
-                    Com isso em mente, empregamos
-                    <b class="font-extrabold">estratégias</b> e
-                    <b class="font-extrabold">instrumentos</b> avançados para
-                    assegurar que seu público-alvo desfrute de uma
-                    <b class="font-extrabold">experiência excepcional</b> ao
-                    visitar seu website, refletindo a essência e os princípios
-                    da sua marca.
-                </p>
-
-                <a
-                    href="https://w.app/XwyTQZ"
-                    target="_blank"
-                    type="button"
-                    data-te-ripple-init
-                    data-te-ripple-color="light"
-                    class="inline-block text-center mt-10 rounded bg-primary px-6 pb-2 pt-2.5 text-base font-semibold leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
-                >
-                    Fazer Orçamento
-                </a>
+    <div class="container mx-auto select-none pt-32">
+        <div class="max-w-8xl mx-auto grid md:grid-cols-2 grid-cols-1 md:gap-10">
+            <div class="justify-self-center col-span-1">
+                <svg class="drop-shadow-xl" id="eye" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="500" height="500">
+                    <image xlink:href="https://svgshare.com/i/13GK.svg" width="100%" height="100%"/>
+                </svg>                  
             </div>
-            <div class="mt-10" v-show="!isMobile">
-                Deslizar para Baixo
-                <svg
-                    class="animate-bounce w-6 h-6 mx-auto mt-4 cursor-pointer"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    v-scroll-to="'#processo'"
-                >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 14l-7 7m0 0l-7-7m7 7V3"
-                    />
-                </svg>
+            <div class="col-span-1 self-center">
+                <h1 class="text-6xl font-bold my-5">Titulo</h1>
+                <h3 class="text-xl tracking-widest text-blue-400 font-light uppercase my-2">Subtitulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit officiis voluptas, deleniti saepe voluptatibus rerum quo cumque? Praesentium, repellendus, impedit tempore accusantium, ad aut quibusdam ipsum repellat non enim iure!</p>
+                <button>Realize meu desejo!</button>
             </div>
         </div>
     </div>
@@ -118,6 +36,23 @@ export default {
         this.isMobile = window.innerWidth < 768;
     },
 };
+
+document.addEventListener('mousemove', (e) => {
+  const eye = document.getElementById('eye');
+  const eyeRect = eye.getBoundingClientRect();
+  
+  const eyeCenterX = eyeRect.left + eyeRect.width / 2;
+  const distanceX = e.clientX - eyeCenterX;
+
+  const eyeCenterY = eyeRect.top + eyeRect.height / 2;
+  const distanceY = e.clientY - eyeCenterY;
+
+  const maxRotation = 30; // Ajuste o valor máximo de rotação conforme necessário
+  const rotationX = (distanceX / eyeRect.width) * maxRotation;
+  const rotationY = (distanceY / eyeRect.width) * maxRotation;
+
+  eye.style.transform = ` rotateY(${rotationX/4}deg) rotateX(${rotationY/4}deg)`;
+});
 </script>
 
 <style scoped>

@@ -4,10 +4,10 @@
             Passo a Passo com a WebGenie
         </h1>
         <div
-            class="grid grid-cols-1 grid-rows-4 gap-10 py-10 mt-10 h-screen relative"
+            class="grid grid-cols-1 gap-10 py-10 mt-10 h-auto relative"
         >
             <div
-                class="col-span-1 flex row-span-1 w-[60%] bg-white rounded-e-xl p-5 shadow-lg"
+                class="col-span-1 flex w-[60%] bg-white rounded-e-xl px-5 py-10 shadow-lg"
                 data-aos="fade-up"
             >
                 <div class="flex gap-10 items-center justify-center">
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div
-                class="col-span-1 flex row-span-1 w-[60%] bg-white rounded-s-xl p-5 shadow-lg"
+                class="col-span-1 flex w-[60%] bg-white rounded-s-xl p-5 shadow-lg"
                 data-aos="fade-up"
                 style="justify-self: end"
             >
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div
-                class="col-span-1 flex row-span-1 w-[60%] bg-white rounded-e-xl p-5 shadow-lg"
+                class="col-span-1 flex w-[60%] bg-white rounded-e-xl px-5 py-10 shadow-lg"
                 data-aos="fade-up"
             >
                 <div class="flex gap-10 items-center justify-center">
@@ -64,8 +64,10 @@
                     </p>
                 </div>
             </div>
+
+
             <div
-                class="col-span-1 flex row-span-1 w-[60%] bg-white rounded-s-xl p-5 shadow-lg"
+                class="col-span-1 flex w-[60%] bg-white rounded-s-xl p-5 shadow-lg"
                 data-aos="fade-up"
                 style="justify-self: end"
             >
@@ -84,10 +86,9 @@
                     </p>
                 </div>
             </div>
-        </div>
 
-        <div
-            class="w-[60%] bg-white xl:py-5 rounded-e-xl p-5 shadow-lg"
+            <div
+            class="w-[60%] col-span-1 bg-white xl:py-5 rounded-e-xl p-5 shadow-lg"
             data-aos="fade-up"
         >
             <div class="flex gap-10 items-center justify-center">
@@ -140,6 +141,10 @@
                 </div>
             </div>
         </div>
+
+        </div>
+
+        
 
         <div class="mt-10 text-center">
             Deslizar para Baixo
