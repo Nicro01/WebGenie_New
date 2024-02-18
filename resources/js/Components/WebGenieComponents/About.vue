@@ -51,7 +51,7 @@ document.addEventListener('mousemove', (e) => {
   const rotationX = (distanceX / eyeRect.width) * maxRotation;
   const rotationY = (distanceY / eyeRect.width) * maxRotation;
 
-  eye.style.transform = ` rotateY(${rotationX/4}deg) rotateX(${rotationY/4}deg)`;
+  eye.style.transform = ` rotateY(${-rotationX/4}deg) rotateX(${rotationY/4}deg)`;
 });
 </script>
 
