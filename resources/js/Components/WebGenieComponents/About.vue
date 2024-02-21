@@ -1,9 +1,9 @@
 <template>
     <div class="relative z-10 pt-10 flex max-lg:flex-col container mx-auto h-screen items-center bg-slate-100">
         <div
-            class="max-lg:flex max-lg:flex-col max-w-8xl mx-auto grid md:grid-cols-2 grid-cols-1 md:gap-0"
+            class="max-lg:flex max-lg:flex-col max-w-8xl mx-auto grid md:grid-cols-2 grid-cols-1 md:gap-0 "
         >
-            <div data-aos="fade-down" class="col-span-1 self-center w-96 ml-20">
+            <div data-aos="fade-down" class="col-span-1 self-center lg:w-96 lg:ml-20 md:mx-auto">
                 <h3
                     class="select-none text-xl tracking-widest text-blue-400 font-light uppercase my-2"
                 >
@@ -17,7 +17,7 @@
                     o seu
                     <span class="uppercase text-blue-400">negócio</span>
                 </h1>
-                <p class="selection:bg-blue-400 selection:text-white text-lg" >
+                <p class="selection:bg-blue-400 selection:text-white text-lg " >
                     Desperte o seu potencial com <span class="text-blue-400">WebGenie!</span> 
                     <br>
                     Somos responsáveis pelo desenvolvimento de diversos clientes e empresas. Impulsionando negócios através da tecnologia em conjunto com o design, tornamos <span class="text-blue-400 uppercase">desejos</span> em <span class="text-blue-400 uppercase">realidade</span>.
@@ -37,7 +37,7 @@
                 </button>
             </div>
 
-            <div data-aos="fade-up" class="justify-self-center col-span-1">
+            <div data-aos="fade-up" class="justify-self-center col-span-1 max-lg:hidden">
                 <svg
                     class="drop-shadow-xl"
                     id="eye"
@@ -52,6 +52,10 @@
                         height="100%"
                     />
                 </svg>
+            </div>
+
+            <div class="lg:hidden">
+                <img src="https://svgshare.com/i/13GK.svg" alt="genie">
             </div>
         </div>
     </div>
