@@ -1,16 +1,50 @@
 <template>
-    <div class="container mx-auto select-none pt-32">
+    <div class="flex container mx-auto h-screen items-center">
         <div
-            class="max-w-8xl mx-auto grid md:grid-cols-2 grid-cols-1 md:gap-10"
+            class="max-w-8xl mx-auto grid md:grid-cols-2 grid-cols-1 md:gap-0"
         >
-            <div class="justify-self-center col-span-1">
+            <div data-aos="fade-down" class="col-span-1 self-center w-96 ml-20">
+                <h3
+                    class="select-none text-xl tracking-widest text-blue-400 font-light uppercase my-2"
+                >
+                    como se fosse mágica
+                </h3>
+                <h1 
+                    class="select-none text-6xl font-bold my-5"
+                >
+                    Criamos 
+                    <br>
+                    o seu
+                    <span class="uppercase text-blue-400">negócio</span>
+                </h1>
+                <p class="selection:bg-blue-400 selection:text-white text-lg" >
+                    Desperte o seu potencial com <span class="text-blue-400">WebGenie!</span> 
+                    <br>
+                    Somos responsáveis pelo desenvolvimento de diversos clientes e empresas. Impulsionando negócios através da tecnologia em conjunto com o design, tornamos <span class="text-blue-400 uppercase">desejos</span> em <span class="text-blue-400 uppercase">realidade</span>.
+
+                </p>
+                <button class="select-none pushable mt-10" @click="handleClick">
+                    <div class="front p-0 flex items-center font-semibold text-lg my-auto">
+                        <img
+                            src="https://i.postimg.cc/Gh7qqpDV/magic-lamp.png"
+                            class="w-8 mx-4 inline invert"
+                            alt=""
+                        />
+                        <span class="flex-1 mr-4">
+                            Realize Meu Desejo
+                        </span> 
+                    </div>
+                </button>
+            </div>
+
+            <div data-aos="fade-up" class="justify-self-center col-span-1">
                 <svg
                     class="drop-shadow-xl"
                     id="eye"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 100 100"
-                    width="500"
-                    height="500"
+                    width="700"
+                    height="700"
                 >
                     <image
                         xlink:href="https://svgshare.com/i/13GK.svg"
@@ -18,30 +52,6 @@
                         height="100%"
                     />
                 </svg>
-            </div>
-            <div class="col-span-1 self-center">
-                <h1 class="text-6xl font-bold my-5">Titulo</h1>
-                <h3
-                    class="text-xl tracking-widest text-blue-400 font-light uppercase my-2"
-                >
-                    Subtitulo
-                </h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    officiis voluptas, deleniti saepe voluptatibus rerum quo
-                    cumque? Praesentium, repellendus, impedit tempore
-                    accusantium, ad aut quibusdam ipsum repellat non enim iure!
-                </p>
-                <button class="pushable mt-5" @click="handleClick">
-                    <span class="front font-semibold text-lg my-auto">
-                        Realize Meu Desejo
-                        <img
-                            src="https://i.postimg.cc/Gh7qqpDV/magic-lamp.png"
-                            class="w-8 inline ms-5 invert"
-                            alt=""
-                        />
-                    </span>
-                </button>
             </div>
         </div>
     </div>
@@ -97,7 +107,9 @@ document.addEventListener("mousemove", (e) => {
     const rotationX = (distanceX / eyeRect.width) * maxRotation;
     const rotationY = (distanceY / eyeRect.width) * maxRotation;
 
-  eye.style.transform = ` rotateY(${-rotationX/4}deg) rotateX(${rotationY/4}deg)`;
+    eye.style.transform = `scaleX(-1) rotateY(${rotationX / 4}deg) rotateX(${
+        rotationY / 4
+    }deg)`;
 });
 </script>
 
@@ -131,8 +143,8 @@ document.addEventListener("mousemove", (e) => {
     cursor: pointer;
 }
 .front {
-    display: block;
-    padding: 5px 45px;
+    display: flex;
+    padding: 5px 0px;
     border-radius: 12px;
     background: hsl(49, 87%, 49%);
     color: white;

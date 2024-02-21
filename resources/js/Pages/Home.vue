@@ -64,7 +64,7 @@
             <About />
         </section>
 
-        <section class="bg-slate-100">
+        <!-- <section class="bg-slate-100">
             <div
                 class="w-full h-40"
                 style="
@@ -78,7 +78,7 @@
                 &nbsp;
             </div>
             <Processo />
-        </section>
+        </section> -->
 
         <section v-if="!isMobile" class="bg-slate-100">
             <div
