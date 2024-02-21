@@ -1,6 +1,6 @@
 <template>
     <div class="select-none bg-[#f6ff7d]" id="servicos">
-        <h1 class="text-2xl text-center font-bold text-gray-900">
+        <h1 class="text-2xl text-center font-bold text-gray-900 pt-28">
             Passo a Passo com a WebGenie
         </h1>
         <div class="flex flex-col gap-10 py-10 mt-10 h-auto">
