@@ -5,7 +5,7 @@
                 <img
                     draggable="false"
                     src="https://i.postimg.cc/s217Kyq1/1fb13409-4429-480b-80b8-c6b6f1546eae.png"
-                    class="opacity-5 md:mx-auto"
+                    class="relative z-0 opacity-5 md:mx-auto"
                     alt=""
                 />
             </div>

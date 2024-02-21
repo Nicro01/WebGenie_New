@@ -1,7 +1,7 @@
 <template>
-    <div class="flex container mx-auto h-screen items-center">
+    <div class="relative z-10 pt-10 flex max-lg:flex-col container mx-auto h-screen items-center bg-slate-100">
         <div
-            class="max-w-8xl mx-auto grid md:grid-cols-2 grid-cols-1 md:gap-0"
+            class="max-lg:flex max-lg:flex-col max-w-8xl mx-auto grid md:grid-cols-2 grid-cols-1 md:gap-0"
         >
             <div data-aos="fade-down" class="col-span-1 self-center w-96 ml-20">
                 <h3
